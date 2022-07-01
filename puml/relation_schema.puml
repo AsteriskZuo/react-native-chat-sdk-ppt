@@ -1,0 +1,33 @@
+@startuml relation_schema
+skinparam BackgroundColor transparent
+skinparam componentStyle rectangle
+
+component Client {
+    component App {
+
+    }
+    component SDK {
+
+    }
+}
+component Server {
+    component "App Server" {
+
+    }
+    component "SDK Server" {
+
+    }
+}
+App <-l-> "App Server" : BIZ DATA
+SDK <-l-> "SDK Server" : MSG DATA
+
+App <-d-> "SDK" : MSG DATA
+"App Server" -d-> "SDK Server" : REST API
+
+@enduml
+
+' 这个是关系示例图。
+' App集成SDK可以实现消息数据的发送和接收。AppServer通过REST接口完成相关操作，例如请求注册用户，请求登录token。
+
+' This is an example diagram of the relationship.
+' App integration SDK can realize the sending and receiving of message data. AppServer completes related operations through the REST interface, such as requesting a registered user and requesting a login token.

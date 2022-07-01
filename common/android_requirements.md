@@ -1,0 +1,15 @@
+[return](../main.md)
+
+If your target platform is Android:
+
+- MacOS 10.15.7 or above, Windows 10 or above
+- Android Studio 4.0 or above, including JDK 1.8 or above
+- React Native 0.63.4 or later
+- NodeJs 16 or above, including npm package management tool
+- Yarn compile and run tool
+- Watchman debugging tool
+- A physical or virtual mobile device running Android 6.0 or later
+
+**Note**
+如果版本过低，或者不兼容可能出现意想不到的问题。
+If the version is too low, or incompatible, unexpected problems may occur.

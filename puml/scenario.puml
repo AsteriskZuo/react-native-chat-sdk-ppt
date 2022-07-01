@@ -1,0 +1,32 @@
+@startuml register_account_nornal
+
+APP -> "REST API" : register account
+APP <-- "REST API" : register account result
+
+APP -> "RN SDK" : init sdk
+APP <-- "RN SDK" : init result
+
+alt initialize success
+
+APP -> "RN SDK" : log in
+APP <-- "RN SDK" : log in result
+
+alt log in success
+
+APP -> "RN SDK" : send message
+APP <-- "RN SDK" : send message result
+
+APP -> "RN SDK" : set recevice
+APP <-- "RN SDK" : recevice message ...
+
+end
+
+APP -> "RN SDK" : log out
+APP <-- "RN SDK" : log out result
+
+end
+
+@enduml
+
+
+
