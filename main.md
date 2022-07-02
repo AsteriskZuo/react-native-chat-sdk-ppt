@@ -1,7 +1,9 @@
 # Introduce React Native Chat SDK
 
 SDK 实现了消息实时传递。它可以完成消息的发送、接收、离线消息的通知，好友、群组、聊天室的管理。
+底层依赖原生平台SDK。
 The SDK implements real-time message delivery. It can send and receive messages, notify offline messages, manage friends, groups, and chat rooms.
+The bottom layer depends on the native platform SDK.
 
 ## Requirements for users
 
@@ -73,9 +75,14 @@ Send message example.
 Receive message example.
 [detail](./common/receive_message.md)
 
-接收离线消息示例。
-Example of receiving offline messages.
+接收离线消息通知示例。
+Example of receiving offline messages notification.
 [detail](./common/receive_offline_notification.md)
+**还没有发布要不要讲？**
+
+# App Demo
+2个模拟器进行消息发送和接收。
+1个模拟器进行其他流程。
 
 # References
 
