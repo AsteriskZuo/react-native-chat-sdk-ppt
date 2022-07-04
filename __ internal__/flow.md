@@ -58,9 +58,10 @@ yarn add agora-react-native-chat
 cd ios && pod install
 ```
 
-1. Open `SomeProject` with xcode.
-2. Select simulator for x86_64 architecture.
-3. Click `start the active scheme` button, build and run app project.
+1. Run app debug server `npx react-native start --port 8888`.
+2. Open `SomeProject` with xcode.
+3. Select simulator for x86_64 architecture.
+4. Click `start the active scheme` button, build and run app project.
 
 # for android platform
 
@@ -68,10 +69,11 @@ cd ios && pod install
 open -a "/Applications/Android Studio.app"
 ```
 
-1. Open `SomeProject` with android studio.
-   **note**: This version of the Android Support plugin for IntelliJ IDEA (or Android Studio) cannot open this project, please retry with version 2021.1.1 or newer.
-2. Select simulator for x86_64 architecture.
-3. Click `Run app` button, build and run app project.
+1. Run app debug server `npx react-native start --port 8888`.
+2. Open `SomeProject` with android studio.
+   **note**: This version of the Android Support plugin for IntelliJ IDEA (or Android Studio) cannot open this project that 0.69 version, please retry with version 2021.1.1 or newer.
+3. Select simulator for x86_64 architecture.
+4. Click `Run app` button, build and run app project.
 
 ## Implement DEMO source code
 
