@@ -28,11 +28,23 @@ vscode latest version
   - Install with brew: `brew install watchman`
 - download the latest version of visual studio code from the official website and install it.
 
+```sh
+sw_vers
+xcodebuild -version
+brew --version
+node --version
+npm --version
+yarn --version
+watchman --version
+open -a "/Applications/Android Studio.app"
+```
+
 ## Creation project
 
 [English]
 
 Create a project using the npm command: `npx react-native init SomeProject`.
+Create a project with specific version using the npm command: `npx react-native init SomeProject --version 0.68.2`.
 
 ## Add SDK plug -in
 
