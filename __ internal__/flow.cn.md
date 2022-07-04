@@ -13,8 +13,6 @@ yarn tools，It is installed using NPM.
 watchman tools, It is install using brew.
 vscode latest version
 
-## 环境安装建议操作系统保持最新稳定版。
-
 [中文]
 
 - xcode 使用 app store 安装。
@@ -35,33 +33,39 @@ vscode latest version
 
 创建项目使用 npm 命令: `npx react-native init SomeProject`。
 
-## 配置项目
+## 添加 SDK 插件
 
 ```sh
 yarn add agora-react-native-chat
 ```
 
-# for ios platform
+# 对于 ios 平台
+
 ```sh
 cd ios && pod install
 ```
+
 1. Run app debug server `npx react-native start --port 8888`.
 2. Open `SomeProject` with xcode.
 3. Select simulator for x86_64 architecture.
 4. Click `start the active scheme` button, build and run app project.
 
-# for android platform
+# 对于 android 平台
+
 ```sh
 open -a "/Applications/Android Studio.app"
 ```
+
 1. Run app debug server `npx react-native start --port 8888`.
 2. Open `SomeProject` with android studio.
-    **note**: This version of the Android Support plugin for IntelliJ IDEA (or Android Studio) cannot open this project that 0.69 version, please retry with version 2021.1.1 or newer.
+   **note**: This version of the Android Support plugin for IntelliJ IDEA (or Android Studio) cannot open this project that 0.69 version, please retry with version 2021.1.1 or newer.
 3. Select simulator for x86_64 architecture.
 4. Click `Run app` button, build and run app project.
 
 ## Implement source code
+
 ```javascript
+
 ```
 
 ## Refresh UI
